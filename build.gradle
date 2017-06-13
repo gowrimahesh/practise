@@ -171,7 +171,7 @@ ext {
         ext.useIncomingDistributions = false
     }
 
-    agentNum = 1
+    agentNum = 2
     if (System.getenv().containsKey("USERNAME")) {
         def agentNumEnv = System.getenv("USERNAME") - "tcagent"
         if (agentNumEnv ==~ /\d+/) {
